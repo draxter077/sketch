@@ -1,7 +1,7 @@
 import input from "./input/main.js"
 import value from "./value/main.js"
 
-export default function inputRange(){
+export default function s0(){
     let style = `
         {
             display: flex;
@@ -10,8 +10,9 @@ export default function inputRange(){
             justify-content: space-between;
         }`
         
-    const inputRange = cE("div", style)
-    inputRange.appendChild(input())
-    inputRange.appendChild(value())
-    return(inputRange)
+    const s0 = cE("div", style)
+    s0.id = "s0"
+    s0.appendChild(input())
+    s0.appendChild(value())
+    return(s0)
 }

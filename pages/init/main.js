@@ -1,4 +1,5 @@
-import inputRange from "./comps/inputRange/main.js"
+import s0 from "./comps/s0/main.js"
+import s1 from "./comps/s1/main.js"
 
 export default function init(){
     let style = `
@@ -16,6 +17,7 @@ export default function init(){
         }`
 
     const init = cE("div", style)
-    init.appendChild(inputRange())
+    init.appendChild(s0())
+    init.appendChild(s1())
     return(init)
 }

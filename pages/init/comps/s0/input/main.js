@@ -24,7 +24,6 @@ export default function input(){
         
     const input = cE("input", style)
     input.type = "range"
-    input.id = "inputRange02122024"
     // min="0" max="100" value="90" step="10" are possibles atts
 
     input.oninput = function a(e){
