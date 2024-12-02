@@ -12,6 +12,7 @@ export default function init(){
         >div{
             border-bottom: 1px solid var(--colorBlack);
             padding: 20px;
+            width: 100%;
         }`
 
     const init = cE("div", style)

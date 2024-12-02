@@ -8,7 +8,6 @@ export default function inputRange(){
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-            width: 50%;
         }`
         
     const inputRange = cE("div", style)
