@@ -12,11 +12,11 @@ export default function div(){
             justify-content: center;
             width: 50%;
             height: 300px;
-            border: 1px solid var(--colorBlack);
             border-radius: 15px;
             overflow: hidden;
             position: relative;
             background: rgb(255, 150, 0, 0.3);
+            box-shadow: 0px 0px 5px 0px black;
         }`
     
     const div = cE("div", style)

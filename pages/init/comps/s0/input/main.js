@@ -3,9 +3,10 @@ export default function input(){
         {
             width: 50%;
             -webkit-appearance: none;
+            cursor: grab;
         }
         ::-webkit-slider-runnable-track {
-            background: red;
+            background: gray;
             border-radius: 15px;
             padding: 5px 10px;
         }
@@ -13,13 +14,12 @@ export default function input(){
             -webkit-appearance: none;
             height: 15px;
             width: 15px;
-            background: green;
+            background: white;
             border-radius: 15px;
-            cursor: ew-resize;
-            transition: background var(--transitionTime);
+            transition: box-shadow var(--transitionTime);
         }
         :hover::-webkit-slider-thumb{
-            background: yellow;
+            box-shadow: 0px 0px 10px 0px black;
         }`
         
     const input = cE("input", style)
