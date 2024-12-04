@@ -1,5 +1,6 @@
 import s0 from "./comps/s0/main.js"
 import s1 from "./comps/s1/main.js"
+import s2 from "./comps/s2/main.js"
 
 export default function init(){
     let style = `
@@ -19,5 +20,6 @@ export default function init(){
     const init = cE("div", style)
     init.appendChild(s0())
     init.appendChild(s1())
+    init.appendChild(s2())
     return(init)
 }
