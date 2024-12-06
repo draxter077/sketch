@@ -5,9 +5,11 @@ export default function options(){
         {
             display: flex;
             flex-direction: column;
+            justify-content: flex-start;
             width: 100%;
-            max-height: 250px;
+            height: 150px;
             overflow-y: scroll;
+            overflow-x: hidden;
             border-top: 1px solid black;
         }`
 

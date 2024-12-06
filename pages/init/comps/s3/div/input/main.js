@@ -18,13 +18,16 @@ export default function input(){
                 }
                 if(value == ""){
                     options[i].style.maxHeight = "100%"
+                    options[i].style.translate = "0%"
                     break
                 }
                 else if(value.toLowerCase() != optionsText.toLowerCase()){
                     options[i].style.maxHeight = "0%"
+                    options[i].style.translate = "50%"
                 }
                 else if(value.toLowerCase() == optionsText.toLowerCase()){
                     options[i].style.maxHeight = "100%"
+                    options[i].style.translate = "0%"
                     break
                 }
             }

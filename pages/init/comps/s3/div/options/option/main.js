@@ -1,10 +1,9 @@
 export default function option(t){
     let style = `
         {
-            width: 100%;
-            height: fit-content;
+            width: 200%;
             max-height: 100%;
-            transition: max-height var(--transitionTime);
+            transition: translate var(--transitionTime), max-height var(--transitionTime);
             overflow: hidden;
         }`
 
