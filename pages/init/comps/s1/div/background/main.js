@@ -3,8 +3,8 @@ export default function background(){
         {
             position: absolute;
             top: 50%;
-            left: -2.5%;
-            width: 105%;
+            left: -5%;
+            width: 110%;
             height: 100%;
             transform: rotate(5deg);
             background: var(--colorBlue);
