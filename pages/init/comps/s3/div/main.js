@@ -1,4 +1,4 @@
-import input from "./input/main.js"
+import entry from "./entry/main.js"
 import options from "./options/main.js"
 
 export default function div(){
@@ -13,7 +13,7 @@ export default function div(){
         }`
 
     const div = cE("div", style)
-    div.appendChild(input())
+    div.appendChild(entry())
     div.appendChild(options())
     return(div)
 }
