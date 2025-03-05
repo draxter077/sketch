@@ -15,11 +15,12 @@ export default function div(){
     const div = cE("div", style)
     div.innerHTML = "teste"
     window.addEventListener("scroll", function a(){
-        if(window.innerHeight > div.offsetTop){
+        //console.log(window.scrollY +"-"+ div.getBoundingClientRect().top)
+        if(window.scrollY > 200){
             div.style.padding = "20px"
             div.style.opacity = "1"
         }
-        //window.history.pushState({},"", "/test");
+        //window.history.pushState({}, "", "/test");
     })
     return(div)
 }
