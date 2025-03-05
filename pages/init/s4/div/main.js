@@ -4,7 +4,7 @@ export default function div(){
             display: flex;
             flex-direction: column;
             width: 50%;
-            padding: 40px 20px 20px 20px;
+            padding: 40px 20px 0px;
             box-shadow: 0px 0px 5px 0px black;
             border-radius: 15px;
             height: 200px;
@@ -16,8 +16,10 @@ export default function div(){
     div.innerHTML = "teste"
     window.addEventListener("scroll", function a(){
         if(window.innerHeight > div.offsetTop){
-        div.style.padding = "20px"
-        div.style.opacity = "1"}
+            div.style.padding = "20px"
+            div.style.opacity = "1"
+        }
+        //window.history.pushState({},"", "/test");
     })
     return(div)
 }
