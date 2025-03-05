@@ -16,7 +16,7 @@ export default function div(){
     div.innerHTML = "teste"
     window.addEventListener("scroll", function a(){
         //console.log(window.scrollY +"-"+ div.getBoundingClientRect().top)
-        if(window.scrollY > 200){
+        if(window.scrollY > 140){
             div.style.padding = "20px"
             div.style.opacity = "1"
         }
