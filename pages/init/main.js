@@ -1,7 +1,8 @@
-import s0 from "./comps/s0/main.js"
-import s1 from "./comps/s1/main.js"
-import s2 from "./comps/s2/main.js"
-import s3 from "./comps/s3/main.js"
+import s0 from "./s0/main.js"
+import s1 from "./s1/main.js"
+import s2 from "./s2/main.js"
+import s3 from "./s3/main.js"
+import s4 from "./s4/main.js"
 
 export default function init(){
     let style = `
@@ -23,5 +24,6 @@ export default function init(){
     init.appendChild(s1())
     init.appendChild(s2())
     init.appendChild(s3())
+    init.appendChild(s4())
     return(init)
 }
