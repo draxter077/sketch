@@ -16,7 +16,7 @@ export default function div(){
     div.innerHTML = "teste"
     window.addEventListener("scroll", async function a(){
         let a = await getScreenDetails()
-        if(div.getBoundingClientRect().top < a.currentScreen.availHeight - 100){
+        if(div.getBoundingClientRect().top < a.currentScreen.availHeight - 50){
             div.style.padding = "20px"
             div.style.opacity = "1"
         }

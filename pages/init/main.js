@@ -3,6 +3,7 @@ import s1 from "./s1/main.js"
 import s2 from "./s2/main.js"
 import s3 from "./s3/main.js"
 import s4 from "./s4/main.js"
+import s5 from "./s5/main.js"
 
 export default function init(){
     let style = `
@@ -25,5 +26,6 @@ export default function init(){
     init.appendChild(s2())
     init.appendChild(s3())
     init.appendChild(s4())
+    init.appendChild(s5())
     return(init)
 }
