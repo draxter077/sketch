@@ -17,6 +17,8 @@ export default function div(){
             position: relative;
             background: rgb(255, 150, 0, 0.3);
             box-shadow: 0px 0px 5px 0px black;
+            color: white;
+            font-weight: 900;
         }`
     
     const div = cE("div", style)

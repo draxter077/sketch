@@ -8,7 +8,7 @@ export default function background(){
             height: 100%;
             transform: rotate(5deg);
             background: var(--colorBlue);
-            opacity: 0.3;
+            z-index: -1;
             transition: top var(--transitionTime), transform var(--transitionTime);
         }`
 
